@@ -34,9 +34,9 @@
       Precio: $
       <input name="precio" type="number" value="" /> <br></br>
       Categoría:
-      <input name="categoria" type="radio" value="B" /> <br></br>
-      <input name="categoria" type="radio" value="M" /> <br></br>
-      <input name="categoria" type="radio" value="E" /> <br></br>
+      <input name="categoria" type="radio" value="B" /> <label>Beginner</label> <br></br>
+      <input name="categoria" type="radio" value="M" /> <label>Middle</label> <br></br>
+      <input name="categoria" type="radio" value="E" /> <label>Expert</label> <br></br>
 
 
       <input type="submit" name="registrar" value="Registrar" />
