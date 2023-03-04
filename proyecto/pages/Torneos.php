@@ -39,7 +39,7 @@
       <input name="categoria" type="radio" value="E" /> <br></br>
 
 
-      <input type="submit" name="regsitrar" value="Registrar" />
+      <input type="submit" name="registrar" value="Registrar" />
       <input type="reset" name="cancelar" value="Cancelar" />
 
    </form>
@@ -50,7 +50,7 @@
 
 
 <?php
-if (!empty($_REQUEST['aceptar'])) {
+if (!empty($_REQUEST['registrar'])) {
    echo $_REQUEST['usuario'] . "<br/>" . $_REQUEST['clave'];
 }
 date_default_timezone_set("America/Costa Rica");

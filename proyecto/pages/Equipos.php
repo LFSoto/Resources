@@ -51,7 +51,7 @@
         <input name="categoria" type="radio" value="middle" /> <label>Middle</label> <br>
         <input name="categoria" type="radio" value="expert" /> <label>Expert</label> <br>
 
-        <input type="submit" name="regsitrar" value="Registrar" />
+        <input type="submit" name="registrar" value="Registrar" />
         <input type="reset" name="cancelar" value="Cancelar" />
 
     </form>
@@ -61,6 +61,14 @@
 </html>
 
 <?php
-    if(POST)
 
+if (!empty($_REQUEST['registrar']) && !empty($_POST['categoria'])) {
+    $categoria = $_POST['categoria'];
+    $inicialCategoria = strtoupper(substr($categoria, 0, 1));
+    $cantidadJugadores = 4;
+    $digitosAleatorios = rand(10, 99);
+    $ultimosDigitosAnio = substr(date("Y"), 3, 4);
+
+    echo 'Codigo: ' . $inicialCategoria . $cantidadJugadores . $digitosAleatorios . $ultimosDigitosAnio;
+}
 ?>
