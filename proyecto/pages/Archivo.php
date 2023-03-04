@@ -17,6 +17,9 @@
             <button onclick="location.href='Torneos.php'">Torneos</button>
         </li>
         <li>
+            <button onclick="location.href='Equipos.php'">Equipos</button>
+        </li>
+        <li>
             <button onclick="location.href='Usuarios.php'">Usuarios</button>
         </li>
         <li>

@@ -14,6 +14,9 @@
          <button onclick="location.href='Torneos.php'">Torneos</button>
       </li>
       <li>
+         <button onclick="location.href='Equipos.php'">Equipos</button>
+      </li>
+      <li>
          <button onclick="location.href='Usuarios.php'">Usuarios</button>
       </li>
       <li>
@@ -21,7 +24,7 @@
       </li>
    </ul>
    <h1>Torneos</h1>
-   <form name="login" method="POST" Action="inicio.txt">
+   <form name="login" method="POST" Action="">
       Tipo de equipo:
       <input name="codigo" type="text" value="" required placeholder="codigo" /> <br></br>
       Cantidad de jugadores:
@@ -36,8 +39,8 @@
       <input name="categoria" type="radio" value="E" /> <br></br>
 
 
-      <input type="submit" name="aceptar" value="ingresar" />
-      <input type="reset" name="Cancelar" value="cancelar" />
+      <input type="submit" name="regsitrar" value="Registrar" />
+      <input type="reset" name="cancelar" value="Cancelar" />
 
    </form>
 
